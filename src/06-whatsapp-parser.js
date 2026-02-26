@@ -59,7 +59,7 @@ export function parseWhatsAppMessage(message) {
   let sentiment = ""
   if (lowerText.includes("😂") || lowerText.includes(":)") || lowerText.includes("haha"))
     sentiment = "funny"
-  else if (lowerText.includes("🤍") || lowerText.includes("love") || lowerText.includes("pyaar"))
+  else if (lowerText.includes("❤") || lowerText.includes("love") || lowerText.includes("pyaar"))
     sentiment = "love"
   else
     sentiment = "neutral"
